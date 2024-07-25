@@ -1,0 +1,50 @@
+/* component */
+.btn{
+    background-color: #AA0601;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+.btn-input{
+    background-color: #AA0601;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.sec2 .material-symbols-outlined {
+    font-size: 84px;
+    color: #650300;
+    margin-bottom: 24px;
+}
+
+.contact .material-symbols-outlined {
+    font-size: 36px;
+    color: #650300;
+    color: #fff;
+    margin-right: 22px;
+}
+
+input[type="text"] {
+    background-color: transparent ;
+    border: 1px solid #000;
+}
+
+input[type="tel"] {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+input[type="email"] {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+textarea{
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+::placeholder {
+    font-size: 16px;
+    padding: 6px 0px 6px 12px;
+}

@@ -1,0 +1,103 @@
+/* utility */
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+@media (max-width:992px){
+    .container{
+        padding: 0px 36px;
+    }
+}
+@media (max-width:768px){
+    .container{
+        padding: 0 14px;
+    }
+}
+.h1{
+    font-size: 64px;
+    font-weight: 900;
+}
+.h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+.h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+.h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-primary {
+    color: #AA0601;
+}
+
+.text-primary-bg {
+    background-color: #AA0601;
+}
+
+.text-secondary {
+    color: #650300;
+}
+
+.text-light {
+    color: #FBF2F2;
+}
+
+.text-white {
+    color: #fff;
+}
+.text-center{
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.mr-8{
+    margin-right: 32px;
+}
+.mr-12{
+    margin-right: 48px;
+}
+.mr-16{
+    margin-right: 64px;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.mb-12{
+    margin-bottom: 48px;
+}
+.mb-20{
+    margin-bottom: 80px;
+}
