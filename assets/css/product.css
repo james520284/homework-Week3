@@ -1,0 +1,133 @@
+/* main-sec1 開始 */
+.product-sec1-item{
+    width: 33.3333%;
+    border-right: 1px solid #DCDCDC;
+}
+.product-sec1-item:first-child {
+    border-left: 1px solid #DCDCDC;
+}
+.product-sec1-item a{
+    display: block;
+    font-size: 32px;
+    padding: 24px 0px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 8px solid #fff;
+}
+
+.product-sec1-item a:hover {
+    border-bottom: 8px solid #AA0601;
+}
+@media(max-width:992px) {
+    .product-sec1 .container{
+        padding: 0 0;
+    }
+    .sub-menu a{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:576px) {
+    .product-sec1 .container {
+        padding: 0 0;
+    }
+    .sub-menu a {
+        font-size: 16px;
+    }
+}
+/* main-sec1 結束 */
+
+/* main-sec2 開始 */
+.product-sec2 picture {
+    width: 50%;
+    display: block;
+}
+@media(max-width:992px){
+    .product-sec2 picture img{
+        width: 100%;
+    }
+}
+/* main-sec2 結束 */
+
+/* main-sec3 開始 */
+.product-sec3 p:first-child{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+}
+.product-sec3 p:nth-child(2) {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.product-list{
+    margin: 0 -12px;
+}
+.product-item{
+    width: 25%;
+    padding: 0 12px;
+    margin-bottom: 80px;
+}
+.productName{
+    font-size: 24px;
+    font-weight: 500;
+}
+.productPrice{
+    font-size: 24px;
+    font-weight: 500;
+    color: #AA0601;
+}
+.productColor .box{
+    width: 24px;
+    height: 24px;
+}
+.productColor .box1{
+    background-color: #5F3E2D;
+    border-radius: 4px;
+}
+.productColor .box2{
+    background-color: #B75929;
+    border-radius: 4px;
+}
+@media(max-width:992px) {
+    .product-item {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .product-item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+.pgNumber{
+    margin: 0 auto;
+    justify-content: center;
+}
+.pgNumber a{
+    display: block;
+    padding: 12px 16px 11px;
+    font-size: 18px;
+    color: #555555;
+    border: 1px solid #555555;
+}
+.pgNumber li:last-child a{
+    background-color: #F2F2F2;
+}
+.pgNumber li:nth-child(3) a{
+    background-color: #000;
+    color: #fff;
+    border-left:1px solid #000;
+    border-right: 1px solid #000;
+}
+
+@media(max-width:576px) {
+    .product-sec3 .pgNumber li a {
+        font-size: 16px;
+        padding: 12px 14px;
+    }
+}
+/* main-sec3 結束 */
